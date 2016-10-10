@@ -1,0 +1,302 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #E9E7E7;
+
+}
+
+header{
+	background-color:white;
+	font-family:arial;
+	margin:auto;
+	padding:0px;
+	display:flex;
+	font-size: 12px;
+	font-weight:bold;
+	justify-content:flex-end;
+}
+img{
+	margin-left:10px;
+	width:220px;
+}
+
+.M{
+	display:flex;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    background:white;
+    padding-top:55px;
+    padding-left:100px;
+    padding-bottom:50px;
+    margin:0;
+    background-image: url("logocotecnova.png");
+	background-repeat:no-repeat;
+	background-position:left;
+	font-family:arial;
+	font-size:18px;
+	border:2px solid #EBEBEB;
+	font-weight:bold;
+	text-align:left;
+	
+
+}
+
+h1 {
+	display:block;
+	font-size:35px;
+	color:#005c29;
+	text-align:center;
+	padding-top:30px;
+	
+}
+h4{
+text-align:left;
+color:black;
+
+}
+h3{
+text-align:center;
+color:white;
+padding:10px;
+ 
+}
+h2{
+text-align:center;	
+color:white;
+padding:0px;
+font-family:arial;
+}
+h5{
+	text-align:right;
+	color:white;
+	padding:10px;
+}
+
+
+p {
+    margin:10px;
+	text-align:center;
+	font-size:25px;
+	font-weight:normal;
+	color:#D1E8FF;
+	padding:10px;
+}
+a {
+	color:#676C72;
+	text-decoration:none;
+
+}
+
+ul {
+	display:inline;
+	height:10px;
+	border:10px;
+	border-top:20px;
+	margin:2em 0;
+	padding:10px;
+	justify-content:flex-end;
+	width:100%;
+}
+li{
+	display:inline;
+	list-style:none;
+	padding:15px;
+	border-radius:10px 5px;
+	color:white;
+	justify-content:flex-end;
+
+
+
+}
+.Destacados{
+	display:table;
+	width:100%;
+	padding:30px;
+}
+.Contabilidad, .Ingenieria, .Producion{
+    display:table-cell;
+	width:33%
+	padding:5em;
+	vertical-align:center;
+}
+.Contabilidad{
+	background-color:#005c29;
+	color:white;
+	padding-top:20px;
+
+
+}
+.Ingenieria{
+	background-color: #005c29;
+	color: white;
+	padding:20px;
+}
+.Producion{
+	background-color:#005c29;
+	color:white;
+	padding:20px;
+
+
+
+}
+
+.biblioteca img{
+	width:1300px;
+	margin:0;
+	padding:50px;
+	height:800px;
+	text-align:center;
+
+
+}
+.Biblioteca{
+	margin: 0.3em 0.8em;
+    text-align:right;
+    display:block;
+    background:#005c29;
+
+
+}
+.Docentes{
+	display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    
+
+  
+}
+.item{
+  padding: 1em;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top:2em;
+  width:250px;
+  height:400px;
+
+}
+.item img{
+	 border-radius:40%;
+	 margin:solid black 10px;
+}
+.item h4{
+	color: black;
+	padding:32px;
+	margin:0px;
+	text-align:center;
+}
+
+.P{
+	display:flex;
+	justify-content:flex-start;
+    flex-wrap:wrap;
+}
+.H{
+	justify-content:flex-start;
+	padding:1em;
+	flex-direction:row;
+}
+form input[type="text"]{
+	    	
+	    	text-align:center;
+	    	display:inline-block;
+	    	padding:12px;
+	    	height:7px;
+	    	width:450px;
+}
+ form input[type="submit"]{
+
+			
+	    	text-align: center;
+	    	display: inline-block;
+	    	margin-left:15px;
+	    	margin-bottom:16px;
+	    	padding:10px 20px;
+	    	border:none;
+	        background:#005c29;
+	    	color:white;
+}
+form input[type="email"]{
+	    	
+			text-align: center;
+	    	display: inline-block;
+	    	padding: 10px;
+	    	height: 5px;
+	    	width: 460px;
+}
+textarea[type="text"]{
+	    	
+	    	text-align: center;
+	    	display: inline-block;
+	    	padding: 10px;
+	    	height: 300px;
+	    	width: 470px;
+}
+form textarea[type="text"]{
+	    	
+	    	text-align: center;
+	    	display: inline-block;
+	    	padding: 10px;
+	    	height: 200px;
+	    	width:460px;
+}
+.H h5{
+	padding:0px;
+	margin:0px;
+}
+.H h2{
+	font-family:cursive;
+	font-weight:normal;
+	text-decoration:underline;
+	font-style:oblique;
+	justify-content:flex-start;
+	color:black;
+}
+.H a{
+	color:#005c29;
+	margin:4px;
+}
+.C{
+	padding:5px;
+	margin:10px;
+
+  
+}
+.C_g{
+  padding:1em;
+  display:flex;
+  flex-direction:row-reverse;
+  align-items: center;
+  margin-top:2em;
+  width:210px;
+  height:200px;
+
+}
+.C_g a{
+color:white;
+font-size:20px;
+}
+h6{
+	font-size:20px;
+	text-align:center;
+	border:1px solid #EBEBEB;
+	padding:5px;
+
+}
+
+.S img{
+	width:1350px;
+	margin:0px;
+	padding:50px;
+	height:800px;
+	text-align:center;
+	background:#005c29;
+
+}
+.fotter{
+	background:#005c29;
+
+}
+
+
